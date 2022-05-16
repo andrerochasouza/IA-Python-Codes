@@ -8,7 +8,7 @@ Para a utilizar os algoritmo, basta realizar *git clone* da branch Main e utiliz
 
 ## Algoritmos
 
-Vários algoritmos desenvolvidos para o treino, listado em baixo:
+Vários algoritmos desenvolvidos, listado logo a seguir:
 
 | Ordenação |
 |---|
