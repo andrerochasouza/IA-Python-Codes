@@ -15,10 +15,10 @@ Vários algoritmos desenvolvidos, listado logo a seguir:
 | `Bubble Sort` |
 | `Selection Sort` |
 | `Insertion Sort` |
-| `Merge Sort` |
 
 | Em desenvolvimento |
 |---|
+| `Merge Sort` |
 | `Quick Sort` |
 | `Heap Sort` |
 | `Counting Sort` |
