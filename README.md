@@ -4,7 +4,7 @@ Esse pacote é um projeto pessoal, onde aplico na prática varios algoritmos par
 
 ## Execução
 
-Para a utilizar os algoritmo, basta realizar *git clone* da branch Main e utilizar a versão 3.7 do [Python](https://www.python.org/downloads/release/python-370/) e executar o arquivo que desejar.
+Para a utilizar os algoritmos, basta realizar *git clone* na branch Main e utilizar a versão [3.7 do Python](https://www.python.org/downloads/release/python-370/) e executar o arquivo que desejar.
 
 ## Algoritmos
 
