@@ -24,6 +24,7 @@ Vários algoritmos desenvolvidos para o treino, listado em baixo:
 | `Counting Sort` |
 | `Radix Sort` |
 | `Bucket Sort` |
+
 | Ordenação |
 |---|
 | `Binary Search` |
