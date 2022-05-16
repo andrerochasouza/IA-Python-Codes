@@ -8,7 +8,14 @@ Algoritmo Selection Sort
 
 '''
 
-arr = [1,3,6,3,2,7,2,9,5,2,9,3,8,4]
+import time
+import random
+
+start_time = time.time()
+
+arr = []
+for i in range(5000):
+    arr.append(i * random.randint(1, 10))
 
 for i in range(len(arr)):
     for j in range(i, len(arr)):
@@ -17,4 +24,8 @@ for i in range(len(arr)):
             arr[j] = arr[i]
             arr[i] = temp
 
+finish_time = time.time()
+finish_time = finish_time - start_time
+
 print(arr)
+print("Tempo de execução: %.5f segundos" % finish_time)

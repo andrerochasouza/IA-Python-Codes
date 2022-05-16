@@ -8,16 +8,24 @@ Algoritmo Bubble Sort
 
 '''
 
-arr = [1,3,6,3,2,7,2,9,5,2,9,3,8,4]
-tam = len(arr) - 1
+import time
+import random
 
-for j in range(tam):
-    for i in range(len(arr)):
-        if i < len(arr) - 1:
-            if arr[i] > arr[i + 1]:
-                temporario = arr[i + 1]
-                arr[i + 1] = arr[i]
-                arr[i] = arr[temporario]
-            tam -= tam
+start_time = time.time()
+
+arr = []
+for i in range(5000):
+    arr.append(i * random.randint(1, 10))
+
+for i in range(len(arr) - 1, -1, -1):
+    for j in range(len(arr) - 1):
+        if arr[j] > arr[j + 1]:
+            temp = arr[j]
+            arr[j] = arr[j + 1]
+            arr[j + 1] = temp
+
+finish_time = time.time()
+finish_time = finish_time - start_time
 
 print(arr)
+print("Tempo de execução: %.5f segundos" % finish_time)
