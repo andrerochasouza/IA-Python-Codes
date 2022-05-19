@@ -15,21 +15,12 @@ Vários algoritmos desenvolvidos, listado logo a seguir:
 | `Bubble Sort` |
 | `Selection Sort` |
 | `Insertion Sort` |
-
-| Em desenvolvimento |
-|---|
 | `Merge Sort` |
 | `Quick Sort` |
-| `Heap Sort` |
-| `Counting Sort` |
-| `Radix Sort` |
-| `Bucket Sort` |
 
 | Busca |
 |---|
 | `Binary Search` |
-| `Interpolation Search` |
-| `Binary Search Tree` |
 
 
 Autor e desenvolvedor: [André da Rocha Souza](https://github.com/andrerochasouza) - https://www.linkedin.com/in/andr%C3%A9darochasouza/
