@@ -18,7 +18,7 @@ arr = []
 for i in range(5000):
     arr.append(i * random.randint(1, 10))
 
-i = 5 # random.randint(1, 5)
+i = random.randint(1, 5)
 
 if i == 1:
     selection.selection_sort(arr)
