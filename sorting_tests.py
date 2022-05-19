@@ -8,7 +8,7 @@ Algoritmo Merge Sort
 
 '''
 
-from sort_algorithm import bubble_sort as bubble, insertion_sort as insertion, merge_sort as merge, selection_sort as selection
+from sort_algorithm import quick_sort as quick, bubble_sort as bubble, insertion_sort as insertion, merge_sort as merge, selection_sort as selection
 import time
 import random
 
@@ -18,7 +18,7 @@ arr = []
 for i in range(5000):
     arr.append(i * random.randint(1, 10))
 
-i = random.randint(1, 4)
+i = 5 # random.randint(1, 5)
 
 if i == 1:
     selection.selection_sort(arr)
@@ -29,9 +29,13 @@ elif i == 2:
 elif i == 3:
     print("Insertion Sort")
     insertion.insertion_sort(arr)
-else:
+elif i == 4:
     print("Merge Sort")
     merge.merge_sort(arr)
+else:
+    print("Quick Sort")
+    quick.quick_sort(arr)
+
 
 
 finish_time = time.time()
