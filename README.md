@@ -1,4 +1,4 @@
-# Algoritmos em Python (Estudos)
+# Algoritmos em Python
 
 Esse pacote é um projeto pessoal, onde aplico na prática varios algoritmos para desenvolvimento em linguagem Python.
 
